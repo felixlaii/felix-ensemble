@@ -1,6 +1,5 @@
-@use "../../styles/partials/typography" as *;
-@use "../../styles/partials/colors" as *;
+$primarydark: #000000;
 
-body {
-  font-family: "lemonmilk";
-}
+$headercolor: #b56c2a;
+
+$buttoncolor: #e5dbcf;
