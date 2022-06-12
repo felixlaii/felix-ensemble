@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { omdbEndPoint, APIKEY } from "../../utils/omdbApi";
 import axios from "axios";
+import "./searchBar.scss";
 
 function SearchBar() {
   const [movies, setMovies] = useState([]);

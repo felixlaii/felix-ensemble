@@ -1,0 +1,10 @@
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/mixins" as *;
+
+.page-header {
+  &__title {
+    @include justify-center;
+    letter-spacing: 2rem;
+    color: $headercolor;
+  }
+}
